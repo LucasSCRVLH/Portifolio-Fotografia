@@ -68,8 +68,12 @@ nav a:hover::after{
     display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 400px;
+        margin-top: 100px;
+       
+        height: 600px;
 }
+
+
 .logo{
     display: flex;
         justify-content: center;
@@ -134,7 +138,7 @@ nav a:hover::after{
 }
 .sec{
     
-margin-top: 400px;
+margin-top: 300px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -239,4 +243,15 @@ footer {
 
 .footer-bottom p {
     margin: 0;
+}
+.footer p {
+    max-width: 800px;
+    line-height: 22px;
+}
+
+.footer p span {
+    color: #FFF;
+}
+#portfolio{
+    margin-bottom: 30px;
 }
